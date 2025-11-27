@@ -1,5 +1,5 @@
 
-!-- [START BADGES] -->
+
 [![CI](https://github.com/JonSil89/Home-Assistant-as-a-Service-HAaaS-/actions/workflows/blank.yml/badge.svg)](https://github.com/JonSil89/Home-Assistant-as-a-Service-HAaaS-/actions/workflows/blank.yml)
 ![Auto Assign](https://github.com/JonSil89/demo-repository/actions/workflows/auto-assign.yml/badge.svg)
 ![Proof HTML](https://github.com/JonSil89/demo-repository/actions/workflows/proof-html.yml/badge.svg)

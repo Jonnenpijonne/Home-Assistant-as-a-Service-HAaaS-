@@ -1,3 +1,11 @@
+name: Proof HTML
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,3 +18,5 @@ jobs:
             echo "HTML files found, validation passed."
           else
             echo "No HTML files found to validate."
+            # Voit päättää, haluatko tämän epäonnistuvan (exit 1) vai menevän läpi
+          fi

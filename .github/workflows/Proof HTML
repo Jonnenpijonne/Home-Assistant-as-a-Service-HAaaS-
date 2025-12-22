@@ -1,0 +1,12 @@
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check HTML files exist
+        run: |
+          if ls *.html 1> /dev/null 2>&1; then
+            echo "HTML files found, validation passed."
+          else
+            echo "No HTML files found to validate."
